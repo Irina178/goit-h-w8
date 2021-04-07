@@ -440,130 +440,6 @@ body {
   padding-bottom: 25px;
 }
 
-.footer {
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  height: 252px;
-}
-
-.footer p {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  padding-bottom: 20px;
-}
-
-.footer .social-networks:hover,
-.footer .social-networks-svg-footer {
-  fill: #ffffff;
-}
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.title-adress {
-  margin-right: 70px;
-  display: inline-block;
-}
-
-.logo-color {
-  color: #ffffff;
-}
-
-.adress {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 9px;
-}
-
-.section-adress {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 9px;
-}
-
-.section-adress:hover, .section-adress:focus {
-  color: #2196f3;
-}
-
-.footer-social {
-  margin-bottom: 20px;
-  width: 206px;
-  margin-right: 94px;
-}
-
-.social-networks-svg-footer {
-  fill: #ffffff;
-  height: 20px;
-  width: 20px;
-}
-
-.subscription-email {
-  width: 358px;
-  height: 50px;
-  left: 815px;
-  top: 2785px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: #2f303a;
-}
-
-.icon-subscription-button {
-  margin-left: 10px;
-}
-
-.subscription-form input {
-  width: 358px;
-  height: 50px;
-  padding-left: 16px;
-  font-size: 16px;
-  border-radius: 4px;
-  margin-right: 12px;
-}
-
-.subscription-button {
-  font-weight: bold;
-  font-size: 16px;
-  background-color: #2196f3;
-  color: #ffffff;
-  letter-spacing: 0.06em;
-  border: none;
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: -50px;
-  margin-right: 0;
-  margin-bottom: 0px;
-  margin-left: 368px;
-}
-
 /* modal */
 .backdrop {
   position: fixed;
@@ -605,8 +481,8 @@ body {
 .modal {
   position: fixed;
   margin: 0 auto;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background: #ffffff;
   -webkit-box-shadow: #ffffff;
           box-shadow: #ffffff;
@@ -656,7 +532,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -678,7 +554,7 @@ body {
 
 .contact-form-input {
   display: block;
-  width: 448px;
+  width: 370px;
   height: 40px;
   background: #ffffff;
   border-radius: 4px;
@@ -706,7 +582,7 @@ body {
 }
 
 .contact-form-masseger {
-  width: 448px;
+  width: 370px;
   height: 120px;
   left: 576px;
   top: 518px;
@@ -731,8 +607,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-right: 11px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }

@@ -29,8 +29,8 @@
 .modal {
   position: fixed;
   margin: 0 auto;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background: $white-color;
   box-shadow: $white-color;
   border-radius: 4px;
@@ -75,7 +75,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: $text-color;
@@ -97,7 +97,7 @@
 
 .contact-form-input {
   display: block;
-  width: 448px;
+  width: 370px;
   height: 40px;
   background: $white-color;
   border-radius: 4px;
@@ -123,7 +123,7 @@
 }
 
 .contact-form-masseger {
-  width: 448px;
+  width: 370px;
   height: 120px;
   left: 576px;
   top: 518px;
@@ -143,8 +143,8 @@
 .checkbox-label {
   display: flex;
   align-items: center;
-  padding-right: 11px;
-  font-size: 14px;
+  // padding-right: 11px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
